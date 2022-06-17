@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cheat Sheet</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,500,700|Oswald:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1>HTML Table Reference</h1>
+  </div>
+
+  <h2>Table Tags</h2>
+
+  <div id="table_tags">
+    <table>
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="table_first_col">&lt;table&gt;</div>
+          </td>
+          <td>Table</td>
+          <td>The wrapper element for all HTML tables.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table_first_col">&lt;thead&gt;</div>
+          </td>
+          <td>Table Head</td>
+          <td>The set of rows defining the column headers in a table.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table_first_col">&lt;tbody&gt;</div>
+          </td>
+          <td>Table Body</td>
+          <td>The set of rows containing actual table data.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table_first_col">&lt;tr&gt;</div>
+          </td>
+          <td>Table Row</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table_first_col">&lt;td&gt;</div>
+          </td>
+          <td>Table Data</td>
+          <td>The table row container.</td>
+        </tr>
+        <tr class="table_last_row">
+          <td>
+            <div class="table_first_col">&lt;tfoot&gt;</div>
+          </td>
+          <td>Table Foot</td>
+          <td>The set of rows defining the footer in a table.</td>
+        </tr>
+    </table>
+  </div>
+
+  
+  <h2>Table Attributes</h2>
+
+  <div id="table_attributes">
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="table_first_col">colspan</div>
+        </td>
+        <td>Column Span</td>
+        <td>Defines how many columns a td element should span.</td>
+      </tr>
+      <tr class="table_last_row">
+        <td>
+          <div class="table_first_col">rowspan</div>
+        </td>
+        <td>Row Span</td>
+        <td>Defines how many rows a td element should span.</td>
+      </tr>
+  </table>
+  </div>
+</body>
+</html>
